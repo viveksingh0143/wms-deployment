@@ -1,0 +1,34 @@
+application:
+  timezone: Asia/Kolkata
+  debug: true
+logger:
+  console-log: true
+  file-log: true
+  level: debug
+  file-path: ./logs/app.log
+  max-size: 200
+  max-backups: 10
+  max-age: 30
+  compress: true
+auth:
+  expiry-duration: 720000
+  expiry-long-duration: 864000
+  refresh-expiry-duration: 20
+  refresh-expiry-long-duration: 25920000
+  secret-key: random30293339393secured-keyy
+rest-server:
+  address: localhost
+  port: 8080
+database:
+  driver: mssql
+  host: localhost
+  port: 1433
+  username: SA
+  password: P@ssw0rd
+  dbname: exeliqwms
+  timezone: Asia/Kolkata
+  show-query: true
+cache:
+  type: "in_memory" # could be "in_memory" or "no_cache" or "redis"
+  redis:
+    server: "localhost:6379"
