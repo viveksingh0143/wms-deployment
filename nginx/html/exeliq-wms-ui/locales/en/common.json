@@ -428,7 +428,8 @@
       "product": "Product",
       "store": "Store",
       "stock_level": "Stock Level",
-      "approved": "Is Approved"
+      "approved": "Is Approved",
+      "location": "Location"
     },
     "placeholders": {
       "status": "Container Status",

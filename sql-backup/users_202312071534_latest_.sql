@@ -1,0 +1,6 @@
+INSERT INTO exeliqwms.dbo.users (created_at,updated_at,deleted_at,updated_by,name,staff_id,username,email,password,status,plant_id) VALUES
+	 ('2023-10-02 20:38:53.7450000 +00:00','2023-11-03 22:39:55.3940000 +00:00',NULL,N'',N'Super Administrator',N'S909201',N'admin001',N'admin@demo.com',N'$2a$10$RCVOuggHVM9hVG1x5zqaa.3GEUdxQwiNSIZYIP//KeplAIMvVeZIy',1,1),
+	 ('2023-10-27 18:24:30.9210000 +00:00','2023-11-05 13:11:51.4140000 +00:00',NULL,N'',N'Vasant Honavar',N'S909202',N'manager001',N'storemanager@demo.com',N'$2a$10$PPDhXjBhMovzVUq7rhQ0HuTT6EvrUTFiROe/2vSHcEc80cJYVWZpe',1,1),
+	 ('2023-11-03 22:38:38.6820000 +00:00','2023-11-03 22:38:38.6820000 +00:00',NULL,N'',N'Manjunatha',N'S10001',N'manjunatha',N'manjunatha@demo.com',N'$2a$10$BrCrxuDtOB6FCrhhvheX9.NFQGo4gFuqm6H.BZRcOeY8yg2DpUvx2',1,1),
+	 ('2023-11-04 16:03:16.0630000 +00:00','2023-11-04 16:04:31.8160000 +00:00',NULL,N'',N'New Delhi Administrator',N'S90920111',N'admin@newdelhi.com',N'admin@newdelhi.com',N'$2a$10$A.b3ZZzmI8LkmbXB26J3yuSJfXcwezMXsUB8idV0cyHUuTnHFpgl6',1,2),
+	 ('2023-11-05 14:01:57.8280000 +00:00','2023-11-05 14:01:57.8280000 +00:00',NULL,N'',N'Ramesh Observer',N'S9092011111',N'observer',N'observer@demo.com',N'$2a$10$bTBNxnSeYjtmmy7QFuL.Xelta/nTaW.hTDF5onb7Jc6QrihcL1IhO',1,1);
