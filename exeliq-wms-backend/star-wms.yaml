@@ -18,7 +18,7 @@ auth:
   secret-key: random30293339393secured-keyy
 rest-server:
   address: localhost
-  port: 8080
+  port: 8081
 database:
   driver: mssql
   host: localhost
