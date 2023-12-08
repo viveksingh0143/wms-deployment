@@ -366,7 +366,7 @@
     }
   },
   "stores": {
-    "stores": "Stores",
+    "stores": "Location Masters",
     "fields": {
       "id": "ID",
       "name": "Name",
@@ -377,19 +377,19 @@
       "approvers": "Approvers"
     },
     "placeholders": {
-      "status": "Store Status",
-      "category": "Store Category",
-      "approvers": "Store Approvers"
+      "status": "Location Master Status",
+      "category": "Location Master Category",
+      "approvers": "Location Master Approvers"
     },
     "titles": {
-      "create": "Create Store",
-      "edit": "Edit Store",
-      "list": "Master Stores",
-      "show": "Show Store"
+      "create": "Create Location Master",
+      "edit": "Edit Location Master",
+      "list": "Location Masters",
+      "show": "Show Location Master"
     }
   },
   "locations": {
-    "locations": "Store Locations",
+    "locations": "Locations",
     "fields": {
       "id": "ID",
       "code": "Code",
@@ -410,10 +410,10 @@
       "status": "Select Status"
     },
     "titles": {
-      "create": "Create Store Location",
-      "edit": "Edit Store Location",
-      "list": "Store Locations",
-      "show": "Show Store Location"
+      "create": "Create Location",
+      "edit": "Edit Location",
+      "list": "Locations",
+      "show": "Show Location"
     }
   },
   "containers": {
@@ -426,7 +426,7 @@
       "address": "Address",
       "status": "Status",
       "product": "Product",
-      "store": "Store",
+      "store": "Location Master",
       "stock_level": "Stock Level",
       "approved": "Is Approved",
       "location": "Location"
@@ -434,7 +434,7 @@
     "placeholders": {
       "status": "Container Status",
       "product": "Container Product",
-      "store": "Container Store",
+      "store": "Location Master",
       "container_type": "Container Type",
       "stock_level": "Stock Level"
     },
@@ -562,12 +562,12 @@
       "department": "Department",
       "order_no": "Order Number",
       "status": "Status",
-      "store": "Store",
+      "store": "Location Master",
       "items": "Order Items"
     },
     "placeholders": {
-      "status": "Requisition Note Status",
-      "store": "Requisition Note Store"
+      "status": "Status",
+      "store": "Location Master"
     },
     "titles": {
       "create": "Create Requisition Note",
@@ -608,18 +608,20 @@
       "unit_weight_type": "Unit Value",
       "batch_no": "Batch Number",
       "status": "Status",
-      "process_status": "Process Status",
+      "process_status": "Status",
       "joborder": "Job Order",
       "Joborder Item": "Job Order Item",
       "customer": "Customer",
       "product": "Product",
       "machine": "Machine",
+      "quantity": "Quantity",
       "target_quantity": "Target Quantity",
-      "package_quantity": "Package Quantity",
+      "package_quantity": "Packet Quantity",
       "labels_to_print": "Labels To Print",
+      "labels_tobe_print": "To be Printed",
       "total_printed": "Total Labels Printed",
       "items": "Order Items",
-      "stickersToPrint": "Stickers To Print"
+      "stickersToPrint": "Packet Label To Print"
     },
     "placeholders": {
       "status": "Batch Label Status",
@@ -659,7 +661,7 @@
     }
   },
   "stickers": {
-    "stickers": "Stickers",
+    "stickers": "Packet Labels",
     "fields": {
       "id": "ID",
       "stickers_to_generate": "Labels Required",
@@ -685,10 +687,10 @@
       "shift": "Select Your Working Shift"
     },
     "titles": {
-      "create": "Create Sticker",
-      "edit": "Edit Sticker",
-      "list": "Stickers",
-      "show": "Show Sticker"
+      "create": "Create Packet Label",
+      "edit": "Edit Packet Label",
+      "list": "Packet Labels",
+      "show": "Show Packet Label"
     },
     "items": {
       "fields": {
@@ -701,7 +703,7 @@
     "inventories": "Inventories",
     "fields": {
       "id": "ID",
-      "store": "Store Name",
+      "store": "Location Master Name",
       "product": "Product Name",
       "quantity": "Quantity",
       "pallet": "Pallet Code",
@@ -712,7 +714,7 @@
     },
     "placeholders": {
       "status": "Inventory Status",
-      "store": "Select Store",
+      "store": "Select Location Master",
       "product": "Select Product",
       "quantity": "Enter Quantity",
       "pallet": "Enter Pallet Code",
@@ -731,7 +733,7 @@
     "transactions": "Transactions",
     "fields": {
       "id": "ID",
-      "store": "Store Name",
+      "store": "Location Master Name",
       "product": "Product Name",
       "quantity": "Quantity"
     },
@@ -749,7 +751,7 @@
     "stockapprovals": "Stock Approvals",
     "fields": {
       "id": "ID",
-      "store": "Store Name",
+      "store": "Location Master (Store)",
       "product": "Product Name",
       "quantity": "Quantity"
     },
@@ -767,7 +769,7 @@
     "requisitionnotes": "Requisition Notes",
     "fields": {
       "id": "ID",
-      "store": "Store Name",
+      "store": "Location Master Name",
       "product": "Product Name",
       "quantity": "Quantity"
     },
@@ -826,7 +828,7 @@
     "rmbatches": "BOM Logs",
     "fields": {
       "id": "ID",
-      "store": "Store Name",
+      "store": "Location Master Name",
       "product": "Product Name",
       "quantity": "Quantity",
       "container": "Pallet/Container Code",
