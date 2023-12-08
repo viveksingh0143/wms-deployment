@@ -1,0 +1,118 @@
+{"level":"info","time":"2023-12-08T16:38:38+05:30","message":"logger is configured."}
+{"level":"debug","time":"2023-12-08T16:38:38+05:30","message":"DB Port: 1433"}
+{"level":"info","gorm:create":"/Users/viveksingh/development/projects/star-wms/backend-server/cmd/server.go:26","time":"2023-12-08T16:38:38+05:30","message":"replacing callback `%s` from %s\n"}
+{"level":"info","gorm:update":"/Users/viveksingh/development/projects/star-wms/backend-server/cmd/server.go:26","time":"2023-12-08T16:38:38+05:30","message":"replacing callback `%s` from %s\n"}
+{"level":"info","time":"2023-12-08T16:38:38+05:30","message":"Debug mode active for GIN"}
+{"level":"info","time":"2023-12-08T16:38:38+05:30","message":"CORS activated for local only (http://localhost:3000) or (http://localhost:5173)"}
+{"level":"info","time":"2023-12-08T16:38:38+05:30","message":"Server started on localhost:8080"}
+{"level":"info","time":"2023-12-08T16:38:43+05:30","message":"Incoming request: origin=, method=GET, url=/login"}
+{"level":"info","time":"2023-12-08T16:38:43+05:30","message":"Incoming request: origin=, method=GET, url=/favicon.ico"}
+{"level":"info","time":"2023-12-08T16:38:45+05:30","message":"Incoming request: origin=, method=GET, url=/login"}
+{"level":"info","time":"2023-12-08T16:38:58+05:30","message":"Incoming request: origin=http://localhost:8080, method=POST, url=/api/auth/login/email"}
+{"level":"debug","elapsed":7.601125,"rows":1,"sql":"SELECT * FROM \"plants\" WHERE \"plants\".\"id\" = 1 AND status = '1' AND \"plants\".\"deleted_at\" IS NULL","time":"2023-12-08T16:38:58+05:30","message":"gorm query"}
+{"level":"debug","elapsed":4.203583,"rows":1,"sql":"SELECT * FROM \"user_roles\" WHERE \"user_roles\".\"user_id\" = 1","time":"2023-12-08T16:38:58+05:30","message":"gorm query"}
+{"level":"debug","elapsed":3.410458,"rows":191,"sql":"SELECT * FROM \"role_abilities\" WHERE \"role_abilities\".\"role_id\" = 1","time":"2023-12-08T16:38:58+05:30","message":"gorm query"}
+{"level":"debug","elapsed":46.434667,"rows":191,"sql":"SELECT * FROM \"abilities\" WHERE \"abilities\".\"id\" IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,124,125,227,228,229,230,231,232,233,234,235,236,237,240,241,242,243,272,273,279,280,336,337,338,339,377,378,379,380,381,389,390,391,392,393,425,426,427,428,429,565,567,568,569,570,712,713,714,715,716,862,863,864,866,867,868,869,870,1024,1026,1027,1184,1185,1187,1188,1189,1352,1353,1354,1355,1356,1357,1358,1528,1529,1530,1531,1532,1533,1534,1535,1711,1712,1713,1714,1717,1718,1719,1720,1721,1722,1723,1724,1725,1873) AND \"abilities\".\"deleted_at\" IS NULL","time":"2023-12-08T16:38:58+05:30","message":"gorm query"}
+{"level":"debug","elapsed":56.299542,"rows":1,"sql":"SELECT * FROM \"roles\" WHERE \"roles\".\"id\" = 1 AND status = '1' AND \"roles\".\"deleted_at\" IS NULL","time":"2023-12-08T16:38:58+05:30","message":"gorm query"}
+{"level":"debug","elapsed":144.125833,"rows":1,"sql":"SELECT * FROM \"users\" WHERE email = 'admin@demo.com' AND \"users\".\"deleted_at\" IS NULL ORDER BY \"users\".\"id\" OFFSET 0 ROW FETCH NEXT 1 ROWS ONLY","time":"2023-12-08T16:38:58+05:30","message":"gorm query"}
+{"level":"info","time":"2023-12-08T16:40:29+05:30","message":"Incoming request: origin=, method=GET, url=/login"}
+{"level":"info","time":"2023-12-08T16:40:29+05:30","message":"Incoming request: origin=, method=GET, url=/login"}
+{"level":"info","time":"2023-12-08T16:40:30+05:30","message":"Incoming request: origin=, method=GET, url=/login"}
+{"level":"info","time":"2023-12-08T16:40:30+05:30","message":"Incoming request: origin=, method=GET, url=/login"}
+{"level":"info","time":"2023-12-08T16:44:16+05:30","message":"Incoming request: origin=, method=GET, url=/login"}
+{"level":"info","time":"2023-12-08T16:44:47+05:30","message":"Incoming request: origin=, method=GET, url=/login"}
+{"level":"info","time":"2023-12-08T16:44:47+05:30","message":"Incoming request: origin=, method=GET, url=/login"}
+{"level":"info","time":"2023-12-08T17:02:10+05:30","message":"logger is configured."}
+{"level":"debug","time":"2023-12-08T17:02:10+05:30","message":"DB Port: 1433"}
+{"level":"info","gorm:create":"/Users/viveksingh/development/projects/star-wms/backend-server/cmd/server.go:26","time":"2023-12-08T17:02:10+05:30","message":"replacing callback `%s` from %s\n"}
+{"level":"info","gorm:update":"/Users/viveksingh/development/projects/star-wms/backend-server/cmd/server.go:26","time":"2023-12-08T17:02:10+05:30","message":"replacing callback `%s` from %s\n"}
+{"level":"info","time":"2023-12-08T17:02:10+05:30","message":"Debug mode active for GIN"}
+{"level":"info","time":"2023-12-08T17:02:10+05:30","message":"CORS activated for local only (http://localhost:3000) or (http://localhost:5173)"}
+{"level":"info","time":"2023-12-08T17:02:10+05:30","message":"Server started on localhost:8080"}
+{"level":"fatal","time":"2023-12-08T17:02:10+05:30","message":"Failed to start the server: listen tcp 127.0.0.1:8080: bind: address already in use"}
+{"level":"info","time":"2023-12-08T17:02:38+05:30","message":"logger is configured."}
+{"level":"debug","time":"2023-12-08T17:02:38+05:30","message":"DB Port: 1433"}
+{"level":"info","gorm:create":"/Users/viveksingh/development/projects/star-wms/backend-server/cmd/server.go:26","time":"2023-12-08T17:02:38+05:30","message":"replacing callback `%s` from %s\n"}
+{"level":"info","gorm:update":"/Users/viveksingh/development/projects/star-wms/backend-server/cmd/server.go:26","time":"2023-12-08T17:02:38+05:30","message":"replacing callback `%s` from %s\n"}
+{"level":"info","time":"2023-12-08T17:02:38+05:30","message":"Debug mode active for GIN"}
+{"level":"info","time":"2023-12-08T17:02:38+05:30","message":"CORS activated for local only (http://localhost:3000) or (http://localhost:5173)"}
+{"level":"info","time":"2023-12-08T17:02:38+05:30","message":"Server started on localhost:8081"}
+{"level":"info","time":"2023-12-08T17:14:25+05:30","message":"Incoming request: origin=http://localhost:8080, method=POST, url=/api/auth/login/email"}
+{"level":"info","time":"2023-12-08T17:19:40+05:30","message":"logger is configured."}
+{"level":"debug","time":"2023-12-08T17:19:40+05:30","message":"DB Port: 1433"}
+{"level":"info","gorm:create":"/Users/viveksingh/development/projects/star-wms/backend-server/cmd/server.go:26","time":"2023-12-08T17:19:40+05:30","message":"replacing callback `%s` from %s\n"}
+{"level":"info","gorm:update":"/Users/viveksingh/development/projects/star-wms/backend-server/cmd/server.go:26","time":"2023-12-08T17:19:40+05:30","message":"replacing callback `%s` from %s\n"}
+{"level":"info","time":"2023-12-08T17:19:40+05:30","message":"Debug mode active for GIN"}
+{"level":"info","time":"2023-12-08T17:19:40+05:30","message":"CORS activated for local only (http://localhost:3000) or (http://localhost:5173)"}
+{"level":"info","time":"2023-12-08T17:19:40+05:30","message":"Server started on localhost:8081"}
+{"level":"info","time":"2023-12-08T17:21:31+05:30","message":"Incoming request: origin=http://localhost:8080, method=POST, url=/auth/login/email"}
+{"level":"info","time":"2023-12-08T17:22:19+05:30","message":"Incoming request: origin=http://localhost:8080, method=POST, url=/api/auth/login/email"}
+{"level":"debug","elapsed":12.542625,"rows":1,"sql":"SELECT * FROM \"plants\" WHERE \"plants\".\"id\" = 1 AND status = '1' AND \"plants\".\"deleted_at\" IS NULL","time":"2023-12-08T17:22:19+05:30","message":"gorm query"}
+{"level":"debug","elapsed":4.347041,"rows":1,"sql":"SELECT * FROM \"user_roles\" WHERE \"user_roles\".\"user_id\" = 1","time":"2023-12-08T17:22:20+05:30","message":"gorm query"}
+{"level":"debug","elapsed":3.735584,"rows":191,"sql":"SELECT * FROM \"role_abilities\" WHERE \"role_abilities\".\"role_id\" = 1","time":"2023-12-08T17:22:20+05:30","message":"gorm query"}
+{"level":"debug","elapsed":33.05125,"rows":191,"sql":"SELECT * FROM \"abilities\" WHERE \"abilities\".\"id\" IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,124,125,227,228,229,230,231,232,233,234,235,236,237,240,241,242,243,272,273,279,280,336,337,338,339,377,378,379,380,381,389,390,391,392,393,425,426,427,428,429,565,567,568,569,570,712,713,714,715,716,862,863,864,866,867,868,869,870,1024,1026,1027,1184,1185,1187,1188,1189,1352,1353,1354,1355,1356,1357,1358,1528,1529,1530,1531,1532,1533,1534,1535,1711,1712,1713,1714,1717,1718,1719,1720,1721,1722,1723,1724,1725,1873) AND \"abilities\".\"deleted_at\" IS NULL","time":"2023-12-08T17:22:20+05:30","message":"gorm query"}
+{"level":"debug","elapsed":41.701,"rows":1,"sql":"SELECT * FROM \"roles\" WHERE \"roles\".\"id\" = 1 AND status = '1' AND \"roles\".\"deleted_at\" IS NULL","time":"2023-12-08T17:22:20+05:30","message":"gorm query"}
+{"level":"debug","elapsed":134.416291,"rows":1,"sql":"SELECT * FROM \"users\" WHERE email = 'admin@demo.com' AND \"users\".\"deleted_at\" IS NULL ORDER BY \"users\".\"id\" OFFSET 0 ROW FETCH NEXT 1 ROWS ONLY","time":"2023-12-08T17:22:20+05:30","message":"gorm query"}
+{"level":"info","time":"2023-12-08T17:22:51+05:30","message":"Incoming request: origin=http://localhost:8080, method=POST, url=/api/auth/login/email"}
+{"level":"debug","elapsed":2.632708,"rows":1,"sql":"SELECT * FROM \"plants\" WHERE \"plants\".\"id\" = 1 AND status = '1' AND \"plants\".\"deleted_at\" IS NULL","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"debug","elapsed":2.093375,"rows":1,"sql":"SELECT * FROM \"user_roles\" WHERE \"user_roles\".\"user_id\" = 1","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"debug","elapsed":3.307916,"rows":191,"sql":"SELECT * FROM \"role_abilities\" WHERE \"role_abilities\".\"role_id\" = 1","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"debug","elapsed":11.1135,"rows":191,"sql":"SELECT * FROM \"abilities\" WHERE \"abilities\".\"id\" IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,124,125,227,228,229,230,231,232,233,234,235,236,237,240,241,242,243,272,273,279,280,336,337,338,339,377,378,379,380,381,389,390,391,392,393,425,426,427,428,429,565,567,568,569,570,712,713,714,715,716,862,863,864,866,867,868,869,870,1024,1026,1027,1184,1185,1187,1188,1189,1352,1353,1354,1355,1356,1357,1358,1528,1529,1530,1531,1532,1533,1534,1535,1711,1712,1713,1714,1717,1718,1719,1720,1721,1722,1723,1724,1725,1873) AND \"abilities\".\"deleted_at\" IS NULL","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"debug","elapsed":17.793042,"rows":1,"sql":"SELECT * FROM \"roles\" WHERE \"roles\".\"id\" = 1 AND status = '1' AND \"roles\".\"deleted_at\" IS NULL","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"debug","elapsed":26.465,"rows":1,"sql":"SELECT * FROM \"users\" WHERE email = 'admin@demo.com' AND \"users\".\"deleted_at\" IS NULL ORDER BY \"users\".\"id\" OFFSET 0 ROW FETCH NEXT 1 ROWS ONLY","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"info","time":"2023-12-08T17:22:51+05:30","message":"Incoming request: origin=, method=GET, url=/api/admin/roles?&"}
+{"level":"debug","elapsed":1.6195,"rows":1,"sql":"SELECT * FROM \"plants\" WHERE \"plants\".\"id\" = 1 AND status = '1' AND \"plants\".\"deleted_at\" IS NULL","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"debug","elapsed":1.160583,"rows":1,"sql":"SELECT * FROM \"user_roles\" WHERE \"user_roles\".\"user_id\" = 1","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"debug","elapsed":1.282083,"rows":191,"sql":"SELECT * FROM \"role_abilities\" WHERE \"role_abilities\".\"role_id\" = 1","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"debug","elapsed":5.994583,"rows":191,"sql":"SELECT * FROM \"abilities\" WHERE \"abilities\".\"id\" IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,124,125,227,228,229,230,231,232,233,234,235,236,237,240,241,242,243,272,273,279,280,336,337,338,339,377,378,379,380,381,389,390,391,392,393,425,426,427,428,429,565,567,568,569,570,712,713,714,715,716,862,863,864,866,867,868,869,870,1024,1026,1027,1184,1185,1187,1188,1189,1352,1353,1354,1355,1356,1357,1358,1528,1529,1530,1531,1532,1533,1534,1535,1711,1712,1713,1714,1717,1718,1719,1720,1721,1722,1723,1724,1725,1873) AND \"abilities\".\"deleted_at\" IS NULL","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"debug","elapsed":8.746792,"rows":1,"sql":"SELECT * FROM \"roles\" WHERE \"roles\".\"id\" = 1 AND status = '1' AND \"roles\".\"deleted_at\" IS NULL","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"debug","elapsed":18.758125,"rows":1,"sql":"SELECT * FROM \"users\" WHERE id = 1 AND \"users\".\"deleted_at\" IS NULL ORDER BY \"users\".\"id\" OFFSET 0 ROW FETCH NEXT 1 ROWS ONLY","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"debug","elapsed":7.177833,"rows":1,"sql":"SELECT count(*) FROM \"roles\" WHERE \"roles\".\"deleted_at\" IS NULL","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"info","time":"2023-12-08T17:22:51+05:30","message":"Incoming request: origin=, method=GET, url=/api/admin/users?_end=10&_start=0&"}
+{"level":"debug","elapsed":42.460125,"rows":5,"sql":"SELECT * FROM \"roles\" WHERE \"roles\".\"deleted_at\" IS NULL","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"debug","elapsed":77.259625,"rows":1,"sql":"SELECT count(*) FROM \"users\" WHERE \"users\".\"deleted_at\" IS NULL","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"debug","elapsed":5.216417,"rows":2,"sql":"SELECT * FROM \"plants\" WHERE \"plants\".\"id\" IN (1,2) AND \"plants\".\"deleted_at\" IS NULL","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"debug","elapsed":2.636792,"rows":5,"sql":"SELECT * FROM \"user_roles\" WHERE \"user_roles\".\"user_id\" IN (1,2,3,4,5)","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"debug","elapsed":3.049875,"rows":4,"sql":"SELECT * FROM \"roles\" WHERE \"roles\".\"id\" IN (1,15,16,18) AND \"roles\".\"deleted_at\" IS NULL","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"debug","elapsed":16.544459,"rows":5,"sql":"SELECT * FROM \"users\" WHERE \"users\".\"deleted_at\" IS NULL ORDER BY \"id\" OFFSET 0 ROW FETCH NEXT 10 ROWS ONLY","time":"2023-12-08T17:22:51+05:30","message":"gorm query"}
+{"level":"info","time":"2023-12-08T17:25:17+05:30","message":"logger is configured."}
+{"level":"debug","time":"2023-12-08T17:25:17+05:30","message":"DB Port: 1433"}
+{"level":"info","gorm:create":"/Users/viveksingh/development/projects/star-wms/backend-server/cmd/server.go:26","time":"2023-12-08T17:25:17+05:30","message":"replacing callback `%s` from %s\n"}
+{"level":"info","gorm:update":"/Users/viveksingh/development/projects/star-wms/backend-server/cmd/server.go:26","time":"2023-12-08T17:25:17+05:30","message":"replacing callback `%s` from %s\n"}
+{"level":"info","time":"2023-12-08T17:25:17+05:30","message":"Debug mode active for GIN"}
+{"level":"info","time":"2023-12-08T17:25:17+05:30","message":"CORS activated for local only (http://localhost:3000) or (http://localhost:5173)"}
+{"level":"info","time":"2023-12-08T17:25:17+05:30","message":"Server started on localhost:8081"}
+{"level":"info","time":"2023-12-08T17:25:26+05:30","message":"Incoming request: origin=http://localhost:8080, method=POST, url=/api/auth/login/email"}
+{"level":"debug","elapsed":1.539708,"rows":1,"sql":"SELECT * FROM \"plants\" WHERE \"plants\".\"id\" = 1 AND status = '1' AND \"plants\".\"deleted_at\" IS NULL","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"debug","elapsed":1.799959,"rows":1,"sql":"SELECT * FROM \"user_roles\" WHERE \"user_roles\".\"user_id\" = 1","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"debug","elapsed":2.744291,"rows":191,"sql":"SELECT * FROM \"role_abilities\" WHERE \"role_abilities\".\"role_id\" = 1","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"debug","elapsed":9.160833,"rows":191,"sql":"SELECT * FROM \"abilities\" WHERE \"abilities\".\"id\" IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,124,125,227,228,229,230,231,232,233,234,235,236,237,240,241,242,243,272,273,279,280,336,337,338,339,377,378,379,380,381,389,390,391,392,393,425,426,427,428,429,565,567,568,569,570,712,713,714,715,716,862,863,864,866,867,868,869,870,1024,1026,1027,1184,1185,1187,1188,1189,1352,1353,1354,1355,1356,1357,1358,1528,1529,1530,1531,1532,1533,1534,1535,1711,1712,1713,1714,1717,1718,1719,1720,1721,1722,1723,1724,1725,1873) AND \"abilities\".\"deleted_at\" IS NULL","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"debug","elapsed":17.424583,"rows":1,"sql":"SELECT * FROM \"roles\" WHERE \"roles\".\"id\" = 1 AND status = '1' AND \"roles\".\"deleted_at\" IS NULL","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"debug","elapsed":31.970209,"rows":1,"sql":"SELECT * FROM \"users\" WHERE email = 'admin@demo.com' AND \"users\".\"deleted_at\" IS NULL ORDER BY \"users\".\"id\" OFFSET 0 ROW FETCH NEXT 1 ROWS ONLY","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"info","time":"2023-12-08T17:25:27+05:30","message":"Incoming request: origin=, method=GET, url=/api/admin/roles?&"}
+{"level":"debug","elapsed":0.881708,"rows":1,"sql":"SELECT * FROM \"plants\" WHERE \"plants\".\"id\" = 1 AND status = '1' AND \"plants\".\"deleted_at\" IS NULL","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"debug","elapsed":0.908917,"rows":1,"sql":"SELECT * FROM \"user_roles\" WHERE \"user_roles\".\"user_id\" = 1","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"debug","elapsed":1.430292,"rows":191,"sql":"SELECT * FROM \"role_abilities\" WHERE \"role_abilities\".\"role_id\" = 1","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"debug","elapsed":8.316833,"rows":191,"sql":"SELECT * FROM \"abilities\" WHERE \"abilities\".\"id\" IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,124,125,227,228,229,230,231,232,233,234,235,236,237,240,241,242,243,272,273,279,280,336,337,338,339,377,378,379,380,381,389,390,391,392,393,425,426,427,428,429,565,567,568,569,570,712,713,714,715,716,862,863,864,866,867,868,869,870,1024,1026,1027,1184,1185,1187,1188,1189,1352,1353,1354,1355,1356,1357,1358,1528,1529,1530,1531,1532,1533,1534,1535,1711,1712,1713,1714,1717,1718,1719,1720,1721,1722,1723,1724,1725,1873) AND \"abilities\".\"deleted_at\" IS NULL","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"debug","elapsed":11.019333,"rows":1,"sql":"SELECT * FROM \"roles\" WHERE \"roles\".\"id\" = 1 AND status = '1' AND \"roles\".\"deleted_at\" IS NULL","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"debug","elapsed":14.75375,"rows":1,"sql":"SELECT * FROM \"users\" WHERE id = 1 AND \"users\".\"deleted_at\" IS NULL ORDER BY \"users\".\"id\" OFFSET 0 ROW FETCH NEXT 1 ROWS ONLY","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"debug","elapsed":2.816125,"rows":1,"sql":"SELECT count(*) FROM \"roles\" WHERE \"roles\".\"deleted_at\" IS NULL","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"info","time":"2023-12-08T17:25:27+05:30","message":"Incoming request: origin=, method=GET, url=/api/admin/users?_end=10&_start=0&"}
+{"level":"debug","elapsed":2.362041,"rows":5,"sql":"SELECT * FROM \"roles\" WHERE \"roles\".\"deleted_at\" IS NULL","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"debug","elapsed":20.774125,"rows":1,"sql":"SELECT count(*) FROM \"users\" WHERE \"users\".\"deleted_at\" IS NULL","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"debug","elapsed":0.566792,"rows":2,"sql":"SELECT * FROM \"plants\" WHERE \"plants\".\"id\" IN (1,2) AND \"plants\".\"deleted_at\" IS NULL","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"debug","elapsed":0.498417,"rows":5,"sql":"SELECT * FROM \"user_roles\" WHERE \"user_roles\".\"user_id\" IN (1,2,3,4,5)","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"debug","elapsed":0.759833,"rows":4,"sql":"SELECT * FROM \"roles\" WHERE \"roles\".\"id\" IN (1,15,16,18) AND \"roles\".\"deleted_at\" IS NULL","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"debug","elapsed":2.588792,"rows":5,"sql":"SELECT * FROM \"users\" WHERE \"users\".\"deleted_at\" IS NULL ORDER BY \"id\" OFFSET 0 ROW FETCH NEXT 10 ROWS ONLY","time":"2023-12-08T17:25:27+05:30","message":"gorm query"}
+{"level":"info","time":"2023-12-08T17:26:40+05:30","message":"logger is configured."}
+{"level":"info","gorm:create":"/Users/viveksingh/development/projects/star-wms/backend-server/cmd/server.go:26","time":"2023-12-08T17:26:40+05:30","message":"replacing callback `%s` from %s\n"}
+{"level":"info","gorm:update":"/Users/viveksingh/development/projects/star-wms/backend-server/cmd/server.go:26","time":"2023-12-08T17:26:40+05:30","message":"replacing callback `%s` from %s\n"}
+{"level":"info","time":"2023-12-08T17:26:40+05:30","message":"Release mode active for GIN"}
+{"level":"info","time":"2023-12-08T17:26:40+05:30","message":"CORS activated for local only (http://localhost:3000) or (http://localhost:5173)"}
+{"level":"info","time":"2023-12-08T17:26:40+05:30","message":"Server started on localhost:8081"}
+{"level":"info","time":"2023-12-08T17:26:50+05:30","message":"Incoming request: origin=, method=GET, url=/api/base/customers?&"}
+{"level":"info","time":"2023-12-08T17:26:50+05:30","message":"Incoming request: origin=, method=GET, url=/api/warehouse/batchlabels?_end=10&_start=0&"}
+{"level":"info","time":"2023-12-08T17:26:52+05:30","message":"Incoming request: origin=, method=GET, url=/api/base/customers?&"}
+{"level":"info","time":"2023-12-08T17:26:52+05:30","message":"Incoming request: origin=, method=GET, url=/api/base/joborders?_end=10&_start=0&"}
+{"level":"info","time":"2023-12-08T17:26:53+05:30","message":"Incoming request: origin=, method=GET, url=/api/base/categories?&"}
+{"level":"info","time":"2023-12-08T17:26:53+05:30","message":"Incoming request: origin=, method=GET, url=/api/base/categories?_end=10&_start=0&"}

@@ -1,20 +1,20 @@
 application:
   timezone: Asia/Kolkata
-  debug: true
+  debug: false
 logger:
   console-log: true
   file-log: true
-  level: debug
+  level: info
   file-path: ./logs/app.log
   max-size: 200
   max-backups: 10
   max-age: 30
   compress: true
 auth:
-  expiry-duration: 720000
-  expiry-long-duration: 864000
+  expiry-duration: 72000
+  expiry-long-duration: 86400
   refresh-expiry-duration: 20
-  refresh-expiry-long-duration: 25920000
+  refresh-expiry-long-duration: 2592000
   secret-key: random30293339393secured-keyy
 rest-server:
   address: localhost
@@ -26,6 +26,15 @@ database:
   username: SA
   password: P@ssw0rd
   dbname: exeliqwms
+  timezone: Asia/Kolkata
+  show-query: false
+mysqldatabase:
+  driver: mysql
+  host: localhost
+  port: 3306
+  username: owner
+  password: owner
+  dbname: brandnewwms
   timezone: Asia/Kolkata
   show-query: true
 cache:
