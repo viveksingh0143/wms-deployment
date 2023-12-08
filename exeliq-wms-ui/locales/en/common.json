@@ -1,0 +1,850 @@
+{
+  "master": {
+    "master": "Master Items"
+  },
+  "adminsettings": {
+    "adminsettings": "Administrator Settings"
+  },
+  "rules": {
+    "requiredOption": "Please select any item",
+    "required": "Field is required, please enter"
+  },
+  "models": {
+    "loader": {
+      "printing": "Printing...",
+      "body": "Please be patience, we are sending files to printer"
+    }
+  },
+  "pages": {
+    "login": {
+      "title": "Sign in to your account",
+      "signin": "Sign in",
+      "signup": "Sign up",
+      "divider": "or",
+      "fields": {
+        "email": "Email",
+        "password": "Password"
+      },
+      "errors": {
+        "validEmail": "Invalid email address"
+      },
+      "buttons": {
+        "submit": "Login",
+        "forgotPassword": "Forgot password?",
+        "noAccount": "Don’t have an account?",
+        "rememberMe": "Remember me"
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "fields": {
+        "email": "Email"
+      },
+      "errors": {
+        "validEmail": "Invalid email address"
+      },
+      "buttons": {
+        "submit": "Send reset instructions"
+      }
+    },
+    "register": {
+      "title": "Sign up for your account",
+      "fields": {
+        "email": "Email",
+        "password": "Password"
+      },
+      "errors": {
+        "validEmail": "Invalid email address"
+      },
+      "buttons": {
+        "submit": "Register",
+        "haveAccount": "Have an account?"
+      }
+    },
+    "updatePassword": {
+      "title": "Update password",
+      "fields": {
+        "password": "New Password",
+        "confirmPassword": "Confirm new password"
+      },
+      "errors": {
+        "confirmPasswordNotMatch": "Passwords do not match"
+      },
+      "buttons": {
+        "submit": "Update"
+      }
+    },
+    "error": {
+      "info": "You may have forgotten to add the {{action}} component to {{resource}} resource.",
+      "404": "Sorry, the page you visited does not exist.",
+      "resource404": "Are you sure you have created the {{resource}} resource.",
+      "backHome": "Back Home"
+    }
+  },
+  "actions": {
+    "list": "List",
+    "create": "Create",
+    "edit": "Edit",
+    "show": "Show"
+  },
+  "buttons": {
+    "print-qr": "Print QR",
+    "print-barcode": "Print Barcode",
+    "create": "Create",
+    "save": "Save",
+    "logout": "Logout",
+    "delete": "Delete",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "confirm": "Are you sure?",
+    "filter": "Filter",
+    "clear": "Clear",
+    "refresh": "Refresh",
+    "show": "Show",
+    "undo": "Undo",
+    "import": "Import",
+    "clone": "Clone",
+    "copy": "Copy",
+    "notAccessTitle": "You don't have permission to access",
+    "deleteSelected": "Delete Selected",
+    "deleteSelectedConfirm": "Are you sure to delete selected items?",
+    "deleteSelectedConfirmDescription": "You have selected {{count}} items",
+    "approve": "Approve",
+    "approveSelected": "Approve Selected",
+    "approveSelectedConfirm": "Are you sure to approve selected items?",
+    "approveSelectedConfirmDescription": "You have selected {{count}} items",
+    "approveConfirmDescription": "Are you sure to approve this item?"
+  },
+  "warnWhenUnsavedChanges": "Are you sure you want to leave? You have unsaved changes.",
+  "notifications": {
+    "success": "Successful",
+    "error": "Error (status code: {{statusCode}})",
+    "undoable": "You have {{seconds}} seconds to undo",
+    "createSuccess": "Successfully created {{resource}}",
+    "createError": "There was an error creating {{resource}} (status code: {{statusCode}})",
+    "deleteSuccess": "Successfully deleted {{resource}}",
+    "deleteError": "Error when deleting {{resource}} (status code: {{statusCode}})",
+    "editSuccess": "Successfully edited {{resource}}",
+    "editError": "Error when editing {{resource}} (status code: {{statusCode}})",
+    "importProgress": "Importing: {{processed}}/{{total}}"
+  },
+  "loading": "Loading",
+  "tags": {
+    "clone": "Clone"
+  },
+  "dashboard": {
+    "title": "Dashboard"
+  },
+  "documentTitle": {
+    "default": "Warehouse Managment System",
+    "suffix": " | Berry Global",
+    "blog_posts": {
+      "list": "Blog Posts | Berry Global",
+      "show": "#{{id}} Show Blog Post | Berry Global",
+      "edit": "#{{id}} Edit Blog Post | Berry Global",
+      "create": "Create new Blog Post | Berry Global",
+      "clone": "#{{id}} Clone Blog Post | Berry Global"
+    },
+    "categories": {
+      "list": "Categories | Berry Global",
+      "show": "#{{id}} Show Category | Berry Global",
+      "edit": "#{{id}} Edit Category | Berry Global",
+      "create": "Create new Category | Berry Global",
+      "clone": "#{{id}} Clone Category | Berry Global"
+    }
+  },
+  "table": {
+    "actions": "Actions",
+    "s_no": "S.No."
+  },
+  "common": {
+    "qrcode": "QR Code",
+    "not_available": "Not Available",
+    "placeholders": {
+      "optional": "Field is optional",
+      "auto_fill": "Field data will auto fill"
+    },
+    "fields": {
+      "optional": "Optional",
+      "auto_fill": "Auto Fill",
+      "id": "ID",
+      "created_at": "Created At",
+      "updated_at": "Updated At",
+      "updated_by": "Updated By",
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "filter": {
+    "title": "Search Filter",
+    "fields": {
+      "query": "Query",
+      "created_at": "Created At"
+    },
+    "placeholders": {
+      "query": "Enter text to search"
+    },
+    "buttons": {
+      "search": "Search",
+      "reset": "Reset"
+    }
+    
+  },
+  "users": {
+    "fields": {
+      "id": "ID",
+      "name": "Name",
+      "staff_id": "Staff ID",
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "status": "Status",
+      "roles": "Roles",
+      "plant": "Plant"
+    },
+    "placeholders": {
+      "status": "User Status",
+      "roles": "User Roles"
+    },
+    "titles": {
+      "create": "Create User",
+      "edit": "Edit User",
+      "list": "Users",
+      "show": "Show User"
+    }
+  },
+  "roles": {
+    "fields": {
+      "id": "ID",
+      "name": "Name",
+      "status": "Status",
+      "abilities": "Abilities"
+    },
+    "abilities": {
+      "title": "List of abilities"
+    },
+    "titles": {
+      "create": "Create Role",
+      "edit": "Edit Role",
+      "list": "Roles",
+      "show": "Show Role"
+    }
+  },
+  "permissions": {
+    "fields": {
+      "id": "ID",
+      "group_name": "Group Name",
+      "module_name": "Module Name",
+      "read_perm": "Read",
+      "create_perm": "Create",
+      "update_perm": "Update",
+      "delete_perm": "Delete",
+      "import_perm": "Import",
+      "export_perm": "Export"
+    },
+    "titles": {
+      "create": "Create Permission",
+      "edit": "Edit Permission",
+      "list": "Permissions",
+      "show": "Show Permission"
+    }
+  },
+  "plants": {
+    "fields": {
+      "id": "ID",
+      "code": "Code",
+      "name": "Name",
+      "status": "Status"
+    },
+    "titles": {
+      "create": "Create Plant",
+      "edit": "Edit Plant",
+      "list": "Plants",
+      "show": "Show Plant"
+    }
+  },
+  "categories": {
+    "categories": "Categories",
+    "fields": {
+      "id": "ID",
+      "name": "Name",
+      "slug": "Slug",
+      "full_path": "Path",
+      "status": "Status",
+      "parent": "Parent Category"
+    },
+    "placeholders": {
+      "name": "Category Name",
+      "status": "Category Status",
+      "parent": "Category Parent"
+    },
+    "titles": {
+      "create": "Create Category",
+      "edit": "Edit Category",
+      "list": "Categories",
+      "show": "Show Category"
+    }
+  },
+  "products": {
+    "products": "Products",
+    "fields": {
+      "id": "ID",
+      "product_type": "Type",
+      "name": "Name",
+      "slug": "Slug",
+      "code": "Code",
+      "cms_code": "CMS Code",
+      "description": "Description",
+      "unit_type": "Unit Type",
+      "unit_weight": "Unit Weight",
+      "unit_weight_type": "Unit Value",
+      "status": "Status",
+      "category_path": "Category Path",
+      "category": "Category",
+      "ingredients": "Ingredients"
+    },
+    "placeholders": {
+      "status": "Product Status",
+      "category": "Product Category"
+    },
+    "titles": {
+      "create": "Create Product",
+      "edit": "Edit Product",
+      "list": "Master Products",
+      "show": "Show Product"
+    },
+    "tabs": {
+      "basic": "Basic Information",
+      "ingredients": "Ingredients Information"
+    },
+    "ingredients": {
+      "ingredients": "Ingredients",
+      "fields": {
+        "id": "ID",
+        "ingredient": "Ingredient",
+        "quantity": "Quantity"
+      },
+      "placeholders": {
+        "ingredient": "Select Ingredient",
+        "quantity": "Enter Quantity"
+      },
+      "buttons": {
+        "add": "Add Ingredient",
+        "remove": "Remove Ingredient"
+      }
+    }
+  },
+  "materials": {
+    "materials": "BOM",
+    "fields": {
+      "id": "ID",
+      "product_type": "Type",
+      "name": "Name",
+      "slug": "Slug",
+      "code": "Code",
+      "cms_code": "CMS Code",
+      "description": "Description",
+      "unit_type": "Unit Type",
+      "unit_weight": "Unit Weight",
+      "unit_weight_type": "Unit Value",
+      "status": "Status",
+      "category_path": "Category Path",
+      "category": "Category"
+    },
+    "placeholders": {
+      "status": "BOM Status",
+      "category": "BOM Category"
+    },
+    "titles": {
+      "create": "Create BOM",
+      "edit": "Edit BOM",
+      "list": "Master BOMs",
+      "show": "Show BOM"
+    },
+    "tabs": {
+      "basic": "Basic Information"
+    }
+  },
+  "stores": {
+    "stores": "Location Masters",
+    "fields": {
+      "id": "ID",
+      "name": "Name",
+      "code": "Code",
+      "address": "Address",
+      "status": "Status",
+      "category": "Category",
+      "approvers": "Approvers"
+    },
+    "placeholders": {
+      "status": "Location Master Status",
+      "category": "Location Master Category",
+      "approvers": "Location Master Approvers"
+    },
+    "titles": {
+      "create": "Create Location Master",
+      "edit": "Edit Location Master",
+      "list": "Location Masters",
+      "show": "Show Location Master"
+    }
+  },
+  "locations": {
+    "locations": "Locations",
+    "fields": {
+      "id": "ID",
+      "code": "Code",
+      "zone_name": "Zone Name",
+      "aisle_number": "Aisle Number",
+      "rack_number": "Rack Number",
+      "shelf_number": "Shelf Number",
+      "description": "Description",
+      "status": "Status"
+    },
+    "placeholders": {
+      "code": "Will Auto Generate Based on Other Fields",
+      "zone_name": "Enter Zone Name",
+      "aisle_number": "Enter Aisle Number",
+      "rack_number": "Enter Rack Number",
+      "shelf_number": "Enter Shelf Number",
+      "description": "Enter Description",
+      "status": "Select Status"
+    },
+    "titles": {
+      "create": "Create Location",
+      "edit": "Edit Location",
+      "list": "Locations",
+      "show": "Show Location"
+    }
+  },
+  "containers": {
+    "containers": "Containers",
+    "fields": {
+      "id": "ID",
+      "container_type": "Type",
+      "name": "Name",
+      "code": "Code",
+      "address": "Address",
+      "status": "Status",
+      "product": "Product",
+      "store": "Location Master",
+      "stock_level": "Stock Level",
+      "approved": "Is Approved",
+      "location": "Location"
+    },
+    "placeholders": {
+      "status": "Container Status",
+      "product": "Container Product",
+      "store": "Location Master",
+      "container_type": "Container Type",
+      "stock_level": "Stock Level"
+    },
+    "titles": {
+      "create": "Create Container",
+      "edit": "Edit Container",
+      "list": "Master Containers",
+      "show": "Show Container"
+    },
+    "contents": {
+      "contents": "Container Contains",
+      "fields": {
+        "product": "Product",
+        "quantity": "Quantity"
+      }
+    }
+  },
+  "machines": {
+    "machines": "Machines",
+    "fields": {
+      "id": "ID",
+      "name": "Name",
+      "code": "Code",
+      "status": "Status"
+    },
+    "placeholders": {
+      "status": "Machine Status"
+    },
+    "titles": {
+      "create": "Create Machine",
+      "edit": "Edit Machine",
+      "list": "Master Machines",
+      "show": "Show Machine"
+    }
+  },
+  "customers": {
+    "customers": "Customers",
+    "fields": {
+      "id": "ID",
+      "name": "Name",
+      "code": "Code",
+      "contact_person": "Contact Person",
+      "billing_address": "Billing Address",
+      "billing_address_1": "Billing Address Line 1",
+      "billing_address_2": "Billing Address Line 2",
+      "billing_state": "Billing State",
+      "billing_country": "Billing Country",
+      "billing_pincode": "Billing Pincode",
+      "shipping_address": "Shipping Address",
+      "shipping_address_1": "Shipping Address Line 1",
+      "shipping_address_2": "Shipping Address Line 2",
+      "shipping_state": "Shipping State",
+      "shipping_country": "Shipping Country",
+      "shipping_pincode": "Shipping Pincode",
+      "status": "Status"
+    },
+    "buttons": {
+      "copy_to_shipping": "Copy to Shipping"
+    },
+    "placeholders": {
+      "status": "Customer Status"
+    },
+    "titles": {
+      "create": "Create Customer",
+      "edit": "Edit Customer",
+      "list": "Master Customers",
+      "show": "Show Customer"
+    }
+  },
+  "joborders": {
+    "joborders": "Job Orders",
+    "fields": {
+      "id": "ID",
+      "issued_date": "Issued Date",
+      "po_category": "PO Category",
+      "order_no": "Order Number",
+      "status": "Status",
+      "process_status": "Process Status",
+      "customer": "Customer",
+      "items": "Order Items"
+    },
+    "placeholders": {
+      "status": "Job Order Status",
+      "customer": "Job Order Customer"
+    },
+    "titles": {
+      "create": "Create Job Order",
+      "edit": "Edit Job Order",
+      "list": "Job Orders",
+      "show": "Show Job Order"
+    },
+    "tabs": {
+      "basic": "Basic Information",
+      "items": "Items Information"
+    },
+    "items": {
+      "items": "Order Items",
+      "fields": {
+        "id": "ID",
+        "product": "Product",
+        "quantity": "Quantity"
+      },
+      "placeholders": {
+        "product": "Select Product",
+        "quantity": "Enter Quantity"
+      },
+      "buttons": {
+        "add": "Add Item",
+        "remove": "Remove Item"
+      }
+    }
+  },
+  "requisitionapprovals": {
+    "requisitionapprovals": "Requisition Approvals",
+    "titles": {
+      "list": "Requisition Approvals",
+      "show": "Show Requisition Approval"
+    }
+  },
+  "requisitions": {
+    "requisitions": "Requisition Notes",
+    "fields": {
+      "id": "ID",
+      "issued_date": "Issued Date",
+      "department": "Department",
+      "order_no": "Order Number",
+      "status": "Status",
+      "store": "Location Master",
+      "items": "Order Items"
+    },
+    "placeholders": {
+      "status": "Status",
+      "store": "Location Master"
+    },
+    "titles": {
+      "create": "Create Requisition Note",
+      "edit": "Edit Requisition Note",
+      "list": "Requisition Notes",
+      "show": "Show Requisition Note"
+    },
+    "tabs": {
+      "basic": "Basic Information",
+      "items": "Items Information"
+    },
+    "items": {
+      "items": "Order Items",
+      "fields": {
+        "id": "ID",
+        "product": "Product",
+        "quantity": "Quantity"
+      },
+      "placeholders": {
+        "product": "Select Product",
+        "quantity": "Enter Quantity"
+      },
+      "buttons": {
+        "add": "Add Item",
+        "remove": "Remove Item"
+      }
+    }
+  },
+  "batchlabels": {
+    "batchlabels": "Batch Labels",
+    "fields": {
+      "id": "ID",
+      "batch_date": "Batch Date",
+      "po_category": "PO Category",
+      "so_number": "SO Number",
+      "unit_type": "Unit Type",
+      "unit_weight": "Unit Weight",
+      "unit_weight_type": "Unit Value",
+      "batch_no": "Batch Number",
+      "status": "Status",
+      "process_status": "Status",
+      "joborder": "Job Order",
+      "Joborder Item": "Job Order Item",
+      "customer": "Customer",
+      "product": "Product",
+      "machine": "Machine",
+      "quantity": "Quantity",
+      "target_quantity": "Target Quantity",
+      "package_quantity": "Packet Quantity",
+      "labels_to_print": "Labels To Print",
+      "labels_tobe_print": "To be Printed",
+      "total_printed": "Total Labels Printed",
+      "items": "Order Items",
+      "stickersToPrint": "Packet Label To Print"
+    },
+    "placeholders": {
+      "status": "Batch Label Status",
+      "joborder": "Batch Label Job Order",
+      "joborder_item": "Batch Label Job Order Item",
+      "product": "Batch Label Product",
+      "machine": "Batch Label Machine",
+      "customer": "Batch Label Customer"
+    },
+    "titles": {
+      "create": "Create Batch Label",
+      "edit": "Edit Batch Label",
+      "list": "Batch Labels",
+      "show": "Show Batch Label"
+    },
+    "tabs": {
+      "basic": "Basic Information",
+      "items": "Items Information"
+    },
+    "items": {
+      "items": "Order Items",
+      "fields": {
+        "id": "ID",
+        "product": "Product",
+        "quantity": "Quantity",
+        "batch_no": "Batch No"
+      },
+      "placeholders": {
+        "product": "Select Product",
+        "quantity": "Enter Quantity",
+        "batch_no": "Enter Batch Number"
+      },
+      "buttons": {
+        "add": "Add Item",
+        "remove": "Remove Item"
+      }
+    }
+  },
+  "stickers": {
+    "stickers": "Packet Labels",
+    "fields": {
+      "id": "ID",
+      "stickers_to_generate": "Labels Required",
+      "supervisor": "Supervisor",
+      "barcode": "Barcode",
+      "packet_no": "Packet No",
+      "shift": "Working Shift",
+      "product_line": "Product Line",
+      "batch_no": "Batch Number",
+      "machine_no": "Machine Number",
+      "is_used": "Is Used",
+      "quantity": "Quantity",
+      "unit_weight": "Unit Weight",
+      "print_count": "Sent to Printer",
+      "product": "Product",
+      "batchlabel": "Batch Label"
+    },
+    "placeholders": {
+      "barcode": "Enter barcode",
+      "batch_no": "Enter Batch Number",
+      "stickers_to_generate": "Enter Labels Required",
+      "supervisor": "Enter Supervisor Name",
+      "shift": "Select Your Working Shift"
+    },
+    "titles": {
+      "create": "Create Packet Label",
+      "edit": "Edit Packet Label",
+      "list": "Packet Labels",
+      "show": "Show Packet Label"
+    },
+    "items": {
+      "fields": {
+        "batch_no": "Batch No.",
+        "quantity": "Quantity"
+      }
+    }
+  },
+  "inventories": {
+    "inventories": "Inventories",
+    "fields": {
+      "id": "ID",
+      "store": "Location Master Name",
+      "product": "Product Name",
+      "quantity": "Quantity",
+      "pallet": "Pallet Code",
+      "batch_no": "Batch Number",
+      "shift": "Working Shift",
+      "supervisor": "Supervisor",
+      "transactions": "Transactions"
+    },
+    "placeholders": {
+      "status": "Inventory Status",
+      "store": "Select Location Master",
+      "product": "Select Product",
+      "quantity": "Enter Quantity",
+      "pallet": "Enter Pallet Code",
+      "batch_no": "Enter Batch Number",
+      "shift": "Select Working Shift",
+      "supervisor": "Enter Supervisor Name"
+    },
+    "titles": {
+      "create": "Raw Material (Stock In)",
+      "edit": "Edit Inventory",
+      "list": "Inventories",
+      "show": "Show Inventory"
+    }
+  },
+  "transactions": {
+    "transactions": "Transactions",
+    "fields": {
+      "id": "ID",
+      "store": "Location Master Name",
+      "product": "Product Name",
+      "quantity": "Quantity"
+    },
+    "placeholders": {
+      "status": "Transaction Status"
+    },
+    "titles": {
+      "create": "Create Transaction",
+      "edit": "Edit Transaction",
+      "list": "All Transactions",
+      "show": "Show Transaction"
+    }
+  },
+  "stockapprovals": {
+    "stockapprovals": "Stock Approvals",
+    "fields": {
+      "id": "ID",
+      "store": "Location Master (Store)",
+      "product": "Product Name",
+      "quantity": "Quantity"
+    },
+    "placeholders": {
+      "status": "Approvals Status"
+    },
+    "titles": {
+      "create": "Create Stock Approvals",
+      "edit": "Edit Stock Approvals",
+      "list": "All Stock Approvals",
+      "show": "Show Stock Approvals"
+    }
+  },  
+  "requisitionnotes": {
+    "requisitionnotes": "Requisition Notes",
+    "fields": {
+      "id": "ID",
+      "store": "Location Master Name",
+      "product": "Product Name",
+      "quantity": "Quantity"
+    },
+    "placeholders": {
+      "status": "Requisition Status"
+    },
+    "titles": {
+      "create": "Create Requisition Notes",
+      "edit": "Edit Requisition Notes",
+      "list": "All Requisition Notes",
+      "show": "Show Requisition Notes"
+    }
+  },
+  "outwardrequests": {
+    "outwardrequests": "Outward Requests",
+    "fields": {
+      "id": "ID",
+      "issued_date": "Issued Date",
+      "order_no": "Order Number",
+      "status": "Status",
+      "customer": "Customer",
+      "items": "Order Items"
+    },
+    "placeholders": {
+      "status": "Outward Request Status",
+      "customer": "Outward Request Customer"
+    },
+    "titles": {
+      "create": "Create Outward Request",
+      "edit": "Edit Outward Request",
+      "list": "Outward Requests",
+      "show": "Show Outward Request"
+    },
+    "tabs": {
+      "basic": "Basic Information",
+      "items": "Items Information"
+    },
+    "items": {
+      "items": "Order Items",
+      "fields": {
+        "id": "ID",
+        "product": "Product",
+        "quantity": "Quantity"
+      },
+      "placeholders": {
+        "product": "Select Product",
+        "quantity": "Enter Quantity"
+      },
+      "buttons": {
+        "add": "Add Item",
+        "remove": "Remove Item"
+      }
+    }
+  },
+  "rmbatches": {
+    "rmbatches": "BOM Logs",
+    "fields": {
+      "id": "ID",
+      "store": "Location Master Name",
+      "product": "Product Name",
+      "quantity": "Quantity",
+      "container": "Pallet/Container Code",
+      "batch_number": "Batch Number",
+      "status": "Status"
+    },
+    "titles": {
+      "list": "BOM Logs",
+      "show": "Log Details"
+    },
+    "history": {
+      "history": "Transactions History",
+      "fields": {
+        "transaction_type": "Transaction Type",
+        "created_at": "Action Date/Time"
+      }
+    }
+  }
+}
