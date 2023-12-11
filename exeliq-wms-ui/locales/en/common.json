@@ -132,9 +132,6 @@
   "tags": {
     "clone": "Clone"
   },
-  "dashboard": {
-    "title": "Dashboard"
-  },
   "documentTitle": {
     "default": "Warehouse Managment System",
     "suffix": " | Berry Global",
@@ -188,7 +185,17 @@
       "search": "Search",
       "reset": "Reset"
     }
-    
+  },
+  "dashboards": {
+    "dashboards": "My Dashboard",
+    "titles": {
+      "list": "My Dashboard"
+    },
+    "reports": {
+      "containers_stock_level": "Containers Stock Level Status",
+      "containers_approval": "Containers Approval Status",
+      "current_inventory_status": "Current Inventory Count"
+    }
   },
   "users": {
     "fields": {
@@ -286,7 +293,7 @@
     }
   },
   "products": {
-    "products": "Products",
+    "products": "Master Products",
     "fields": {
       "id": "ID",
       "product_type": "Type",
@@ -335,7 +342,7 @@
     }
   },
   "materials": {
-    "materials": "BOM",
+    "materials": "Master Materials",
     "fields": {
       "id": "ID",
       "product_type": "Type",
@@ -352,14 +359,14 @@
       "category": "Category"
     },
     "placeholders": {
-      "status": "BOM Status",
-      "category": "BOM Category"
+      "status": "Material Status",
+      "category": "Material Category"
     },
     "titles": {
-      "create": "Create BOM",
-      "edit": "Edit BOM",
-      "list": "Master BOMs",
-      "show": "Show BOM"
+      "create": "Create Material",
+      "edit": "Edit Material",
+      "list": "Master Materials",
+      "show": "Show Material"
     },
     "tabs": {
       "basic": "Basic Information"
@@ -825,7 +832,7 @@
     }
   },
   "rmbatches": {
-    "rmbatches": "BOM Logs",
+    "rmbatches": "Material Stock Report",
     "fields": {
       "id": "ID",
       "store": "Location Master Name",
@@ -836,8 +843,8 @@
       "status": "Status"
     },
     "titles": {
-      "list": "BOM Logs",
-      "show": "Log Details"
+      "list": "Material Stock Report",
+      "show": "Material Stock Details"
     },
     "history": {
       "history": "Transactions History",

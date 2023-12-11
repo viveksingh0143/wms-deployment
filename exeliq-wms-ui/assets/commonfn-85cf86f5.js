@@ -1,0 +1,1 @@
+const a=t=>{let r=0;for(let n=0;n<t.length;n++)isNaN(parseInt(t[n]))&&(r=n+1);const s=t.substring(0,r),e=t.substring(r),i=e?(parseInt(e,10)+1).toString().padStart(e.length,"0"):"00001";return`${s}${i}`};export{a as g};
